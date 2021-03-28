@@ -17,10 +17,11 @@ interface IconProps {
 
 interface InputProps {
   name: string;
-  icon: FC<IconProps>;
+  icon?: FC<IconProps>;
+  placeholder: string;
 }
 
-const Input = ({ name, icon: Icon, ...rest }: InputProps ) => {
+export default function Input({ name, icon: Icon, ...rest }: InputProps ) {
 
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -61,5 +62,3 @@ const Input = ({ name, icon: Icon, ...rest }: InputProps ) => {
     </Container>
   );
 };
-
-export default Input;

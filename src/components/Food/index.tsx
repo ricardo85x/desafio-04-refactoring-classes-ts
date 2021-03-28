@@ -18,7 +18,7 @@ interface FoodProps {
   handleDelete : (id : number) => void,
 }
 
-function Food(  {food, handleEditFood, handleDelete  } : FoodProps) {
+export default function Food(  {food, handleEditFood, handleDelete  } : FoodProps) {
 
   const [isAvailable, setIsAvailable] = useState(food.available);
 
@@ -88,5 +88,3 @@ function Food(  {food, handleEditFood, handleDelete  } : FoodProps) {
       );
 
 }
-
-export default Food;
