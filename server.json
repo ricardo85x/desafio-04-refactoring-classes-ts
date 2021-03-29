@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Ao molho branco HUMMM",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
-      "price": "1.99",
+      "price": "29.55",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
@@ -23,6 +23,14 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "",
+      "name": "Mata fome do gato",
+      "price": "39,99",
+      "description": "Super Copão da alegria ",
+      "available": true,
+      "id": 4
     }
   ]
 }

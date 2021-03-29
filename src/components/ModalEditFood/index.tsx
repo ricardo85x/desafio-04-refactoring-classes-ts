@@ -10,7 +10,7 @@ interface ModalEditFoodProps {
   setIsOpen: () => void;
   handleUpdateFood: (data: FoodProps) => void;
   isOpen: boolean;
-  editingFood: () => void;
+  editingFood: FoodProps;
 }
 
 export default function ModalEditFood({setIsOpen, handleUpdateFood, isOpen, editingFood }: ModalEditFoodProps) {
