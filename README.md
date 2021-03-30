@@ -1,4 +1,4 @@
-# Desafio 04 - Typescriptification
+# Desafio 04 - Refactoring de classes e typescript
 
 # 💻 Sobre o desafio
 
